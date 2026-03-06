@@ -2,7 +2,11 @@
 
 Welcome to my **Web Technologies** laboratory repository! 🎓
 
-This repository documents my journey through the Web Technologies course at university. It's not just a collection of homework; it's a structured **practical tutorial** designed to demonstrate real-world implementation of web concepts.
+This repository documents a comprehensive 13-week practical roadmap covering Web Development fundamentals (HTML, CSS, JS). This repository documents my university lab assignments, serving as a step-by-step tutorial from basic structure to interactive web pages.
+
+![Repo Size](https://img.shields.io/github/repo-size/YOUR_GITHUB_USERNAME/web-dev-fundamentals?style=flat-square)
+![Last Commit](https://img.shields.io/github/last-commit/YOUR_GITHUB_USERNAME/web-dev-fundamentals?style=flat-square)
+![License](https://img.shields.io/github/license/YOUR_GITHUB_USERNAME/web-dev-fundamentals?style=flat-square)
 
 ## 📂 Repository Structure
 
@@ -49,16 +53,21 @@ Here is the breakdown of the practical assignments. I will update this list as I
 
 ## 🚀 How to Run
 
+If you want to test these labs on your own machine:
 1.  Clone the repository:
     ```bash
-    git clone [https://github.com/SƏNİN-USERNAMİN/web-tech-labs.git](https://github.com/SƏNİN-USERNAMİN/web-tech-labs.git)
+    git clone [https://github.com/your-username/web-tech-labs.git](https://github.com/your-username/web-tech-labs.git)
     ```
 2.  Navigate to the specific lab folder (e.g., `Lab-03`).
 3.  Open the `index.html` file in your browser.
 
 ## 👤 Author
 
-**[Sənin Adın]** *3rd Year IT Student & Web Enthusiast*
+**[Rauf Jafarov ]** *3rd Year IT Student & Web Developer*
+LinkedIn Profile :www.linkedin.com/in/raufjafarov6
+
+Email Me :raufjafarov23@gmail.com
+
 
 ---
-*Note: This repository is updated weekly following the university curriculum.*
+*Note: This repository is updated weekly following the  lab tasks *
