@@ -4,6 +4,8 @@ Welcome to my **Web Technologies** laboratory repository! 🎓
 
 This repository documents a comprehensive 13-week practical roadmap covering Web Development fundamentals (HTML, CSS, JS). This repository documents my university lab assignments, serving as a step-by-step tutorial from basic structure to interactive web pages.
 
+# 
+
 ![Repo Size](https://img.shields.io/github/repo-size/YOUR_GITHUB_USERNAME/web-dev-fundamentals?style=flat-square)
 ![Last Commit](https://img.shields.io/github/last-commit/YOUR_GITHUB_USERNAME/web-dev-fundamentals?style=flat-square)
 ![License](https://img.shields.io/github/license/YOUR_GITHUB_USERNAME/web-dev-fundamentals?style=flat-square)
@@ -64,6 +66,7 @@ If you want to test these labs on your own machine:
 ## 👤 Author
 
 **[Rauf Jafarov ]** *3rd Year IT Student & Web Developer*
+
 LinkedIn Profile :www.linkedin.com/in/raufjafarov6
 
 Email Me :raufjafarov23@gmail.com
