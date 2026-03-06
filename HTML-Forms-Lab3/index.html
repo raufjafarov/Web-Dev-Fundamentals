@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/submit" method="post">
+        <fieldset>
+            <legend>Login Details</legend>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+    <fieldset class="course-group">
+            <legend>Course Details:</legend>
+
+            <div class="form-row">
+                <label>Undergraduate:</label>
+                
+                <input type="radio" id="yes" name="undergrad" value="yes">
+                <label for="yes">YES</label>
+
+                <input type="radio" id="no" name="undergrad" value="no">
+                <label for="no">NO</label>
+            </div>
+
+            <br>
+
+            <div class="subjects-row">
+                <label>Subjects:</label>
+                
+                <div class="checkbox-group">
+                    <div>
+                        <input type="checkbox" id="english" name="subjects" value="english">
+                        <label for="english">English</label>
+                    </div>
+                    
+                    <div>
+                        <input type="checkbox" id="math" name="subjects" value="math">
+                        <label for="math">Mathematics</label>
+                    </div>
+                    
+                    <div>
+                        <input type="checkbox" id="science" name="subjects" value="science">
+                        <label for="science">Science</label>
+                    </div>
+                </div>
+            </div>
+
+        </fieldset>
+
+        <br>
+
+        <button type="submit" class="btn-finish">Finish</button>
+
+    </form>
+    <hr> <br> </br> </hr>
+
+    <form action="#" method="POST">
+
+        <fieldset class="apartment-info">
+            <legend>Apartment Information</legend>
+
+            <div class="form-row">
+                <label for="apt-size">Choose apartment size:</label><br>
+                <select id="apt-size" name="size">
+                    <option value="studio">Studio</option>
+                    <option value="1-bed">1 Bedroom</option>
+                    <option value="2-bed">2 Bedroom</option>
+                </select>
+            </div>
+
+            <br>
+
+            <div class="form-row">
+                <label>Rental Term:</label><br>
+                
+                <div class="radio-group">
+                    <input type="radio" id="short" name="term" value="short" checked>
+                    <label for="short">Short Term</label><br>
+
+                    <input type="radio" id="long" name="term" value="long">
+                    <label for="long">Long Term</label><br>
+
+                    <input type="radio" id="both" name="term" value="both">
+                    <label for="both">Both are OK</label>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="form-row">
+                <label>Features:</label><br>
+                
+                <div class="checkbox-group">
+                    <input type="checkbox" id="balcony" name="features" value="balcony" checked>
+                    <label for="balcony">Balcony</label>
+
+                    <input type="checkbox" id="floor" name="features" value="high_floor">
+                    <label for="floor">Higher Floor</label>
+
+                    <input type="checkbox" id="elevator" name="features" value="elevator">
+                    <label for="elevator">Proximity to Elevators</label>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="form-row">
+                <label for="start-date">Start date:</label><br>
+                <input type="date" id="start-date" name="start_date">
+            </div>
+
+            <br>
+
+            <div class="form-row">
+                <label for="request">Special Request:</label><br>
+                <textarea id="request" name="special_request" rows="11" cols="70" placeholder="Please specify any special request you might have."></textarea>
+            </div>
+
+        </fieldset>
+
+        <p class="promo-text">Let us find you the apartment of your dreams...</p>
+
+        <div class="button-group">
+            <button type="submit" class="btn-submit">Submit</button>
+            <button type="reset" class="btn-reset">Start over</button>
+        </div>
+
+    </form>
+    
+    <form action="#" method="POST" class="car-selection-form">
+    <div class="form-group">
+        <label for="car-select">Choose the car:</label>
+        <select id="car-select" name="user_car">
+            <option value="nissan">Nissan</option>
+            <option value="ford">Ford</option>
+            <option value="lexus" disabled>Lexus</option> 
+            <option value="audi">Audi</option>
+            <option value="honda">Honda</option>
+            <option value="bmw">BMW</option>
+        </select>
+    </div>
+</form>
+
+<br><hr><br>
+
+<form action="#" method="POST" class="product-selection-form">
+    <div class="form-group">
+        <label for="product-select">Choose the product:</label>
+        <select id="product-select" name="user_product">
+            <optgroup label="Fruit">
+                <option value="apple">Apple</option>
+                <option value="orange">Orange</option>
+                <option value="pear">Pear</option>
+                <option value="grape">Grape</option>
+            </optgroup>
+
+            <optgroup label="Vegetables">
+                <option value="potato">Potato</option>
+                <option value="tomato">Tomato</option>
+                <option value="carrot">Carrot</option>
+                <option value="onion">Onion</option>
+            </optgroup>
+        </select>
+    </div>
+</form>
+
+
+
+
+
+</body>
+</html>
